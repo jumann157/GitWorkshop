@@ -16,6 +16,10 @@ public class Person {
     }
 
     // TODO:  Create a method that increments age by 1
+    public void birthday() {
+        this.age++;
+    }
+
 
     // TODO:  Create a method that sets occupation
 
