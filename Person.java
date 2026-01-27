@@ -24,6 +24,9 @@ public class Person {
     // TODO:  Create a method that sets occupation
 
     // TODO:  Create a method that returns fullName
+    public String getFullName() {
+        return firstName + " " + lastName;
+    }
     
 
     // TODO: change this line
