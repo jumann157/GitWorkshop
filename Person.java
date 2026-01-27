@@ -16,13 +16,20 @@ public class Person {
     }
 
     // TODO:  Create a method that increments age by 1
+    public void birthday() {
+        this.age++;
+    }
+
 
     // TODO:  Create a method that sets occupation
 
     // TODO:  Create a method that returns fullName
-    
+    public String returnFullName() {
+        return "firstname" + "lastname";
+    }
 
     // TODO: change this line
+    @Override
     public String toString() {
         return "Hi! My name is " + firstName + " " + lastName + ". I am " + age + " old.";
     }
